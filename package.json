@@ -1,6 +1,6 @@
 {
   "name": "@koba04/npm-publish-test",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "This is a test repository to test `npm publish`",
   "main": "lib/index.js",
   "scripts": {
