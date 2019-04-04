@@ -6,6 +6,7 @@
   "scripts": {
     "release": "np",
     "build": "tsc",
+    "prepublishOnly": "npm run build",
     "test": "mocha -r ts-node/register src/*.test.ts"
   },
   "repository": {
