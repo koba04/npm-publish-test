@@ -6,7 +6,7 @@
   "scripts": {
     "release": "np",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -r ts-node/register src/*.test.ts"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,11 @@
     "lib"
   ],
   "devDependencies": {
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.13.0",
+    "mocha": "^6.0.2",
     "np": "^4.0.2",
+    "ts-node": "^8.0.3",
     "typescript": "^3.4.1"
   }
 }
