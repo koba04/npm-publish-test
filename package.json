@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/koba04/npm-publish-test#readme",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "files": [
     "lib"
