@@ -6,7 +6,8 @@
   "scripts": {
     "release": "np",
     "build": "tsc",
-    "prepublishOnly": "run-s test build",
+    "lint": "run-p build test",
+    "prepublishOnly": "run-s test lint build",
     "test": "mocha -r ts-node/register src/*.test.ts"
   },
   "repository": {
