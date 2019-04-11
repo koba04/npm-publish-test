@@ -4,7 +4,7 @@
   "description": "This is a test repository to test `npm publish`",
   "main": "lib/index.js",
   "scripts": {
-    "release": "run-s lint && np --no-publish && npm publish",
+    "release": "run-s lint && np --no-publish && yarn publish",
     "build": "tsc",
     "lint": "run-p build test",
     "prepublishOnly": "run-s test lint build",
